@@ -52,7 +52,7 @@
 #gioithieu {
     position: relative;
     /* background-position: top center; */
-    background: url("../img/bkg.jpg") center center no-repeat;
+    background: url("https://images4.alphacoders.com/151/thumb-1920-151368.jpg") center center no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
     background-color: rgba(37, 35, 35, 0.24);
