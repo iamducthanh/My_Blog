@@ -249,6 +249,7 @@
 
 .cta1 {
     border-radius: 3px;
+    border: 1px #f39e3d solid;
     position: relative;
     display: block;
     font-size: 13pt;
