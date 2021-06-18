@@ -197,7 +197,7 @@
     left: 0;
     width: 100%;
     height: 5px;
-    background: linear-gradient(90deg, transparent, #ff2079);
+    background: linear-gradient(90deg, transparent, red);
     animation: animation1 1s infinite;
 }
 
@@ -206,7 +206,7 @@
     right: 0;
     width: 6px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #ff2079);
+    background: linear-gradient(180deg, transparent, red);
     animation: animation2 1s infinite;
     animation-delay: 0.12s;
 }
@@ -216,7 +216,7 @@
     right: 0;
     width: 100%;
     height: 5px;
-    background: linear-gradient(-90deg, transparent, #ff2079);
+    background: linear-gradient(-90deg, transparent, red);
     animation: animation3 1s infinite;
     animation-delay: 0.22s;
 }
@@ -226,7 +226,7 @@
     left: 0;
     width: 5px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #ff2079);
+    background: linear-gradient(360deg, transparent, red);
     animation: animation4 1s infinite;
     animation-delay: 0.4s;
 }
@@ -239,7 +239,7 @@
     letter-spacing: 1.4px;
     margin-top: 15px;
     padding: 5px;
-    color: rgb(218, 29, 29);
+    color: rgb(245, 4, 4);
     transition: 1s;
     overflow: hidden;
     width: fit-content;

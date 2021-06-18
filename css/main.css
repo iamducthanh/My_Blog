@@ -1737,7 +1737,7 @@ input::-moz-focus-inner {
 
 .header-nav li.current a {
     font-family: "montserrat-extrabold", sans-serif;
-    color: #af2b2b;
+    color: red;
 }
 
 
