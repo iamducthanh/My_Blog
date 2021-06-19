@@ -1224,7 +1224,6 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/js.js"></script>
 
     <!-- Messenger Plugin chat Code -->
     <div id="fb-root"></div>
@@ -1251,16 +1250,14 @@
             js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
-
-        setTimeout(clickMe, 6000)
-
-        function clickMe() {
-            console.log(document.getElementsByClassName('_909d')[0]);
-            document.getElementsByClassName('_909d')[0].click()
-        }
     </script>
 
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_cWtjIJNFWwI5Ub9F6ksce");
+        })();
+    </script>
 </body>
 <script>
     var audioControl = document.getElementsByClassName("audioControl");
@@ -1270,5 +1267,6 @@
     var y = 0;
 
 </script>
+<script src="js/js.js"></script>
 
 </html>
