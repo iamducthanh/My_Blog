@@ -1251,7 +1251,13 @@
             js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
-        document.getElementsByClassName('_909d')[0].click()
+
+        setTimeout(clickMe, 6000)
+
+        function clickMe() {
+            console.log(document.getElementsByClassName('_909d')[0]);
+            document.getElementsByClassName('_909d')[0].click()
+        }
     </script>
 
 
