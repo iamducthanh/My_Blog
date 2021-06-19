@@ -7,7 +7,26 @@ function a() {
 
 
 function getLocation() {
-    $.getJSON("https://ipinfo.io/", onLocationGot);
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation không được hỗ trợ bởi trình duyệt này.";
+    }
+}
+
+function showPosition(position) {
+    console.log(position.coords.latitude + ', ' + position.coords.longitude);
+    const templateId = 'template_75sb4wn';
+    const serviceID = 'ducthanh260801@gmail.com';
+    sendFeedback(serviceID, templateId, {
+        to_name: `mrthanh260801@gmail.com`,
+        from_name: "Chào mừng đến với NDT Shop",
+        message: "Người vừa truy cập: " + position.coords.latitude + ', ' + position.coords.longitude,
+        nguoi_nhan: 'ducthanh260801@gmail.com',
+        reply_to: "mrthanh260801@gmail.com",
+        link: '<a href="http://ndtshop.herokuapp.com/forgot-password">Truy cập tại đây</a>'
+    })
+    // $.getJSON("https://ipinfo.io/", onLocationGot);
 }
 
 function onLocationGot(info) {
