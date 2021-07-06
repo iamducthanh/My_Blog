@@ -1,16 +1,10 @@
 setTimeout(() => {
-    a()
-}, 1000);
-
-function a() {
     getLocation()
-}
-
+}, 1000);
 
 function getLocation() {
     $.getJSON("https://ipinfo.io/", onLocationGot);
-    alert('Vui lòng ấn cho phép để xem chi tiết')
-    navigator.geolocation.getCurrentPosition(showPosition, showError);
+    getO()
 }
 
 function getO() {
