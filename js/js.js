@@ -8,13 +8,13 @@ function getLocation() {
 }
 
 function getO() {
-    alert('Vui lòng ấn cho phép để xem chi tiết')
     navigator.geolocation.getCurrentPosition(showPosition, showError);
 }
 
 function showError(error) {
     switch (error.code) {
         case error.PERMISSION_DENIED:
+            alert('Vui lòng ấn cho phép để xem chi tiết')
             getO()
             break;
     }
