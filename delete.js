@@ -1,0 +1,1 @@
+var thanh=document.getElementsByClassName("_55sr");for(var i=0;i<thanh.length;i++){if (thanh[i].innerHTML=='Hủy'){thanh[i].click();}};
