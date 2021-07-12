@@ -1,0 +1,58 @@
+.contact {
+    position: fixed;
+    bottom: 100px;
+    z-index: 5000;
+    left: -100px;
+    /* height: 250px; */
+    transition: 0.7s;
+    
+  }
+  .contact img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* border: 1px black solid; */
+    transition: 0.5s;
+    right: 2px;
+    background-color: black;
+    transform: translateX(-8px);
+  }
+  
+  .contact span {
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-weight: 600;
+    left: 15px;
+    /* left: 30px; */
+    /* top: 0px; */
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    width: 0px;
+    overflow: hidden;
+    transition: 0.9s;
+    z-index: -1;
+  }
+  .contact .phone,
+  .contact .mail,
+  .contact .insta,
+  .contact .fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    position: relative;
+    margin-bottom: 5px;
+  }
+  .contact .phone:hover span,
+  .contact .mail:hover span,
+  .contact .insta:hover span,
+  .contact .fb:hover span {
+    padding: 5px 24px 5px 20px;
+    width: fit-content;
+  }
+  
