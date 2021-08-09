@@ -11,4 +11,5 @@ setup theme: https://www.youtube.com/watch?v=wzpjnFQ030M&ab_channel=LinkVegas
 bkg: https://www.deviantart.com/sandwichhorsearchive/art/Cyan-Magenta-Wallpaper-Sketch-405709775?fbclid=IwAR0PkZ_859E8-WE3VJjSQYVouUxGUcjSF1PjK5NxOGPCdxpqU55j0rLweXI
 localstogareInJava: https://gist.github.com/dariodiaz/5079695
 convertImgToText: https://www.text-image.com/convert/
+thymeleaf: https://openplanning.net/12345/thymelea
 C̶̷̸̲̿u̶̷̸̲̿ộ̶̷̸̲̿c̶̷̸̲̿ S̶̷̸̲̿ố̶̷̸̲̿n̶̷̸̶̷̸̲̿g̶̷̸̲̿ Ả̶̷̸̲̿o̶̷̸̲̿ 
