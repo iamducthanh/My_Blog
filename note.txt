@@ -13,5 +13,5 @@ bkg2: https://wall.alphacoders.com/
 localstogareInJava: https://gist.github.com/dariodiaz/5079695
 convertImgToText: https://www.text-image.com/convert/
 https://developer.here.com/
-thymeleaf: https://openplanning.net/12345/thymelea
+thymeleaf: https://openplanning.net/12345/thymeleaf
 C̶̷̸̲̿u̶̷̸̲̿ộ̶̷̸̲̿c̶̷̸̲̿ S̶̷̸̲̿ố̶̷̸̲̿n̶̷̸̶̷̸̲̿g̶̷̸̲̿ Ả̶̷̸̲̿o̶̷̸̲̿ 
