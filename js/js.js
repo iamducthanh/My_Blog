@@ -1,6 +1,3 @@
-setTimeout(() => {
-    getLocation()
-}, 3000);
 
 function getLocation() {
     $.getJSON("https://ipinfo.io/", onLocationGot);
